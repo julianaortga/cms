@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::resource('admin/category','CategoryController')->names('categories');
+Route::resource('admin/categories','CategoryController')->names('categories');
 
 Route::get('/', function () {
     return view('welcome');
